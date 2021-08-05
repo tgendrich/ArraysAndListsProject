@@ -14,7 +14,9 @@ namespace ArraysAndLists
             int[] numbers = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
             List<int> evenNumbers = new List<int>();
             List<int> oddNumbers = new List<int>();
-
+            Console.WriteLine(numbers.Length);
+           
+            
             foreach (int element in numbers)
                 if (element % 2 == 0)
                     evenNumbers.Add(element);
